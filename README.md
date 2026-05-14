@@ -1,1 +1,2119 @@
-# kebun-gemilang
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>50 Cara Praktis Menanam Sayur di Rumah - Kebun Rumah Gemilang</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #F8FAF5; color: #334155; }
+.chart-container { position: relative; width: 100%; max-width: 400px; margin: 0 auto; height: 250px; max-height: 300px; }
+.card-hover:hover { transform: translateY(-4px); transition: all 0.3s ease; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+.custom-scrollbar::-webkit-scrollbar { width: 8px; }
+.custom-scrollbar::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 4px; }
+.custom-scrollbar::-webkit-scrollbar-thumb { background: #84CC16; border-radius: 4px; }
+.bg-primary-green { background-color: #4D7C0F; }
+.text-primary-green { color: #4D7C0F; }
+.border-primary-green { border-color: #4D7C0F; }
+.bg-accent-orange { background-color: #F97316; }
+.text-accent-orange { color: #F97316; }
+.nav-link.active { border-bottom-width: 4px; border-color: #4D7C0F; color: #4D7C0F; font-weight: 700; }
+</style>
+</head>
+<body class="custom-scrollbar antialiased">
+
+<!-- Sticky Navigation / Daftar Isi Cepat -->
+<nav class="bg-white shadow-md sticky top-0 z-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between h-16 items-center">
+<div class="flex-shrink-0 flex items-center gap-2">
+<span class="text-3xl">🌿</span>
+<span class="font-bold text-xl text-primary-green tracking-tight hidden sm:block">Kebun Rumah Gemilang</span>
+</div>
+<div class="flex space-x-1 sm:space-x-4 overflow-x-auto custom-scrollbar pb-1">
+<a href="#daftar-isi" class="text-gray-600 hover:text-primary-green px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap">Daftar Isi</a>
+<a href="#layer1" class="text-gray-600 hover:text-primary-green px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap">Bab 1: Mental</a>
+<a href="#layer2" class="text-gray-600 hover:text-primary-green px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap">Bab 2: Setup</a>
+<a href="#layer3" class="text-gray-600 hover:text-primary-green px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap">Bab 3: Tanaman</a>
+<a href="#layer4" class="text-gray-600 hover:text-primary-green px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap">Bab 4: Perawatan</a>
+<a href="#layer5" class="text-gray-600 hover:text-primary-green px-3 py-2 rounded-md text-sm font-medium whitespace-nowrap">Bab 5: Panen</a>
+</div>
+</div>
+</div>
+</nav>
+
+<main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+
+<header class="text-center mb-16 pt-8">
+<h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
+50 Cara Praktis Menanam Sayur di Rumah <br/><span class="text-primary-green">Khusus Pemula</span>
+</h1>
+<p class="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+Pernah membeli seikat kangkung di pasar dan berpikir, "Sepertinya aku bisa menanam ini sendiri di rumah"? Kabar baiknya, kamu sangat bisa melakukannya! Mari kita mulai langkah pertama menyulap sudut rumah menjadi sumber sayuran sehat keluarga.
+</p>
+</header>
+
+<!-- DAFTAR ISI (Spoiler Peta Perjalanan) -->
+<section id="daftar-isi" class="mb-20 scroll-mt-24">
+<div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-8 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-green-50 rounded-bl-full -z-10 opacity-50"></div>
+<h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Peta Perjalanan Kebun Kita</h2>
+<p class="text-center text-gray-600 mb-8">Panduan ini dibagi menjadi 5 tahap. Kita akan mengerjakannya satu per satu agar kamu tidak merasa pusing.</p>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4">
+<a href="#layer1" class="block bg-green-50 hover:bg-green-100 transition-colors rounded-xl p-4 border-b-4 border-primary-green text-center">
+<span class="text-2xl block mb-2">🧠</span>
+<h3 class="font-bold text-primary-green text-sm">1. Motivasi & Realita</h3>
+<p class="text-xs text-gray-600 mt-1">Cara 1-5<br><span class="italic font-medium text-green-700">Persiapan mental sebelum kotor-kotoran.</span></p>
+</a>
+<a href="#layer2" class="block bg-green-50 hover:bg-green-100 transition-colors rounded-xl p-4 border-b-4 border-primary-green text-center">
+<span class="text-2xl block mb-2">🪴</span>
+<h3 class="font-bold text-primary-green text-sm">2. Setup Dasar</h3>
+<p class="text-xs text-gray-600 mt-1">Cara 6-15<br><span class="italic font-medium text-green-700">Memilih media tanam dan pot.</span></p>
+</a>
+<a href="#layer3" class="block bg-green-50 hover:bg-green-100 transition-colors rounded-xl p-4 border-b-4 border-primary-green text-center">
+<span class="text-2xl block mb-2">🌱</span>
+<h3 class="font-bold text-primary-green text-sm">3. Pilih Tanaman</h3>
+<p class="text-xs text-gray-600 mt-1">Cara 16-25<br><span class="italic font-medium text-green-700">Katalog sayur anti galau.</span></p>
+</a>
+<a href="#layer4" class="block bg-green-50 hover:bg-green-100 transition-colors rounded-xl p-4 border-b-4 border-primary-green text-center">
+<span class="text-2xl block mb-2">🚿</span>
+<h3 class="font-bold text-primary-green text-sm">4. Perawatan</h3>
+<p class="text-xs text-gray-600 mt-1">Cara 26-40<br><span class="italic font-medium text-green-700">Teman saat ada ulat & masalah.</span></p>
+</a>
+<a href="#layer5" class="block bg-green-50 hover:bg-green-100 transition-colors rounded-xl p-4 border-b-4 border-primary-green text-center">
+<span class="text-2xl block mb-2">🥗</span>
+<h3 class="font-bold text-primary-green text-sm">5. Panen & Rutinitas</h3>
+<p class="text-xs text-gray-600 mt-1">Cara 41-50<br><span class="italic font-medium text-green-700">Menjadikan berkebun gaya hidup.</span></p>
+</a>
+</div>
+</div>
+</section>
+
+<!-- ============================================== -->
+<!-- LAYER 1: MOTIVASI & REALITY CHECK              -->
+<!-- ============================================== -->
+<div id="layer1" class="scroll-mt-24">
+<section class="mb-16 bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+<div>
+<h2 class="text-2xl font-bold text-gray-800 mb-4">Bagian 1: Kamu Nggak Sendirian!</h2>
+<p class="text-gray-600 mb-4">
+Sebelum kita mulai meracik tanah, penting buat kita tahu kalau gagal di awal itu sangat wajar. Data menunjukkan banyak ibu-ibu pemula yang berhenti berkebun karena hal-hal sepele yang sebenarnya sangat bisa dicegah.
+</p>
+<p class="text-gray-600 font-medium">
+Dengan mengikuti tahap pertama ini, kita akan menghindari kesalahan-kesalahan yang ada di grafik sebelah. Yuk, kita siapkan mental dulu!
+</p>
+</div>
+<div class="bg-gray-50 rounded-xl p-4 border border-gray-100">
+<h3 class="text-sm font-bold text-center text-gray-700 mb-2">Penyebab Utama Kita Suka Menyerah</h3>
+<div class="chart-container">
+<canvas id="kegagalanChart"></canvas>
+</div>
+</div>
+</div>
+</section>
+
+<section class="mb-20 border-b border-gray-200 pb-20">
+<div class="mb-10">
+<h2 class="text-3xl font-bold text-gray-900 mb-2">Bab 1: Persiapan Mental</h2>
+<p class="text-gray-600 text-lg">Membangun fondasi semangat sebelum tangan kita mulai menyentuh tanah.</p>
+</div>
+
+<div class="space-y-8">
+<!-- Cara 1 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-primary-green">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">1. Temukan Motivasi Utama Membangun Kebun Minimu</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Pernah nggak sih kita pengen banget punya kebun mini yang asri, tapi baru ngebayangin repotnya nyiapin tanah dan kotor-kotoran aja rasanya udah capek duluan? Alhasil, niatnya cuma sebatas wacana berminggu-minggu.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Tuliskan satu impian sederhana kamu. Misalnya: "Aku pengen anakku lahap makan bayam karena dia ikut nanam sendiri."</li>
+<li>Tulis impian itu di atas kertas kecil. <strong>Kenapa harus ditulis?</strong> Karena otak kita gampang lupa dan gampang menyerah saat nanti melihat pot agak berantakan. Tulisan ini bakal jadi jangkar pengingat supaya kita nggak gampang nyerah di tengah jalan.</li>
+<li>Tempelkan kertas itu di pintu kulkas atau cermin rias yang pasti kamu lihat setiap pagi.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Kertas catatan berperekat (sticky notes)</li>
+<li>Spidol warna-warni</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 5 menit.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Punya komitmen yang mengikat dan jelas untuk mulai.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 2 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-primary-green">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">2. Nikmati Proses Tumbuh Kembang Tanaman Tanpa Tergesa-gesa</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Sering kejadian nih di kita, habis nebar benih hari ini, besok paginya udah bolak-balik ditengokin sambil berharap langsung muncul daun hijau. Pas potnya masih kosong melompong, langsung deh mikir, "Wah, emang nggak bakat nanam nih kayaknya."</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Pahami kalau alam punya jadwalnya sendiri. Setiap benih butuh waktu tidur di dalam tanah sebelum bangun jadi tunas.</li>
+<li>Beri kelonggaran waktu. Kalau mau yang ngebut kayak balapan, kangkung itu juara satunya—sekitar 3 sampai 4 hari aja udah nongol tunasnya! Sisanya? Bisa butuh seminggu penuh.</li>
+<li>Kalau ada benih yang gagal tumbuh setelah dua minggu, jangan sedih. Cukup aduk lagi tanahnya dan sebar benih yang baru. Proses belajar memang seperti ini!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Buku catatan kecil untuk jurnal harian</li>
+<li>Rasa sabar tingkat tinggi</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Berlaku sepanjang masa tanam.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Pikiran jadi rileks dan santai menghadapi kejutan alam.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 3 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-primary-green">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">3. Berburu Sinar Matahari Pagi di Area Rumah</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kita kadang suka lapar mata, taruh pot berisi tanaman di sudut ruang tamu yang teduh cuma karena terlihat cantik kalau difoto. Eh, seminggu kemudian tanamannya kurus, pucat, dan layu berjamaah. Bingung kan salahnya di mana?</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Ingat prinsip ini: sayuran itu butuh 'makan' dari sinar matahari langsung, bukan dari terangnya lampu neon ruangan.</li>
+<li>Besok pagi antara jam 07.00 sampai 10.00, cobalah keliling rumah (bisa di teras atau balkon).</li>
+<li>Berdirilah sejenak. Kalau kulit tanganmu terasa hangat terkena sinar matahari di titik tersebut, berarti itulah lokasi emas buat kebunmu!</li>
+<li>Pastikan spot itu dapat cahaya cerah minimal 4 jam sehari.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Jam dinding atau alarm ponsel buat pengingat</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 10 menit berburu matahari.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Punya satu lokasi pasti yang dijamin bikin sayuran subur.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 4 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-primary-green">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">4. Pilih Sayuran "Anti Rewel" Buat Panen Perdana</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Jujur aja, kita pasti sering kalap saat main aplikasi belanja. Bawaannya mau beli benih stroberi, paprika, sampai tomat ceri sekalian. Padahal, nanam sayuran berbuah buat pemula itu ibarat baru belajar nyetir tapi langsung disuruh ikut balapan!</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Rem dulu keinginan beli benih tanaman berbuah yang perawatannya butuh ketelitian ekstra.</li>
+<li>Pilih sayuran daun yang waktu panennya singkat banget (20-30 hari) dan super tahan banting, contohnya Kangkung, Bayam, atau Caisim.</li>
+<li>Fokus aja rawat 1 atau 2 pot jenis sayuran ini sampai kamu berhasil panen pertama kali. Rasa puasnya bakal luar biasa!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Benih kangkung & bayam tepercaya. <br><a href="https://s.shopee.co.id/70GtOwI1D6" target="_blank" class="text-blue-600 hover:text-blue-800 underline font-medium mt-1 inline-block">Klik di sini untuk rekomendasi benih di Shopee 🛒</a></li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 10 menit buat checkout.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Punya benih yang sesuai kemampuan dan dijamin cepat panen.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 5 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-primary-green">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">5. Sisihkan Waktu 15 Menit Aja Sehari buat Mereka</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Biasanya semangat kita buat nyiram itu menggebu-gebu dari hari pertama sampai ketiga. Masuk hari keempat, kita mulai repot urus anak dan rumah. Tahu-tahu pas akhir pekan mau ditengok, tanah di pot udah kering kerontang kayak kerupuk!</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Kita gabungkan jadwal rawat tanaman ini ke kegiatan yang udah pasti kita lakuin tiap pagi (namanya <strong><em>habit stacking</em></strong>).</li>
+<li>Contoh paling gampang: Habis cuci beras buat masak, air cuciannya jangan dibuang! Langsung bawa aja ke depan buat nyiram tanaman.</li>
+<li>Nggak butuh waktu lama kok, cukup luangkan 15 menit. Konsistensi harian jauh lebih penting daripada kamu nyiram bergalon-galon tapi cuma seminggu sekali.</li>
+</ol>
+</div>
+
+<div class="mb-6 bg-green-50 border border-green-200 rounded-xl p-5">
+<span class="font-bold text-green-800 block mb-3 text-center">Resep 15 Menit Me-Time Berkebun</span>
+<div class="flex flex-col sm:flex-row justify-between gap-3 text-sm">
+<div class="bg-white p-3 rounded-lg shadow-sm flex-1 border-l-4 border-primary-green">
+<span class="block font-bold text-gray-700 mb-1">💧 5 Menit Pertama</span>
+<span class="text-gray-600">Menyiram santai dan rasakan tanah, apakah masih terlalu basah atau sudah kering.</span>
+</div>
+<div class="bg-white p-3 rounded-lg shadow-sm flex-1 border-l-4 border-accent-orange">
+<span class="block font-bold text-gray-700 mb-1">🔎 5 Menit Kedua</span>
+<span class="text-gray-600">Intip pelan-pelan ke balik daun, pastikan tidak ada ulat atau tamu tak diundang.</span>
+</div>
+<div class="bg-white p-3 rounded-lg shadow-sm flex-1 border-l-4 border-yellow-400">
+<span class="block font-bold text-gray-700 mb-1">✂️ 5 Menit Terakhir</span>
+<span class="text-gray-600">Cabut rumput liar kecil yang numpang tumbuh, atau petik daun yang menguning.</span>
+</div>
+</div>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Air bekas bilasan beras (nutrisi gratis!)</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 15 menit setiap hari.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Terbentuknya rutinitas harian yang bikin kita ikutan sehat.</span>
+</div>
+</div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10">
+<div class="lg:col-span-1 bg-red-50 border-t-8 border-red-500 rounded-2xl p-6 shadow-sm">
+<h3 class="text-xl font-bold text-red-700 mb-4">🛑 Jangan Lakukan Ini</h3>
+<p class="text-sm text-red-600 mb-4">Yuk, kita hindari hal-hal yang sering bikin semangat luntur:</p>
+<ul class="space-y-4 text-sm text-red-800">
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Membeli pot keramik estetik yang mahal banget sebelum tahu karakter sayuran.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Menyalahkan diri sendiri dan meyakini mitos <strong>"aku memang nggak bakat nanam"</strong>.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Menaruh pot di dalam ruangan tertutup cuma biar estetik.</span>
+</li>
+</ul>
+</div>
+
+<div class="lg:col-span-2 bg-white rounded-2xl p-6 shadow-sm border border-gray-200 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-40 h-40 bg-green-50 rounded-bl-full -z-10"></div>
+<h3 class="text-xl font-bold text-gray-800 mb-2">✅ Checklist Bab 1</h3>
+<p class="text-gray-600 mb-6 text-sm">Mari pastikan kamu sudah menandai daftar di bawah ini sebelum lanjut ke Bab 2.</p>
+<div class="space-y-3">
+<label class="flex items-center gap-3 p-3 hover:bg-green-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-green-100">
+<input type="checkbox" class="w-5 h-5 text-primary-green rounded focus:ring-primary-green accent-primary-green">
+<span class="text-gray-700 font-medium">Udah nulis 1 impian berkebun dan nempel di kulkas/cermin.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-green-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-green-100">
+<input type="checkbox" class="w-5 h-5 text-primary-green rounded focus:ring-primary-green accent-primary-green">
+<span class="text-gray-700 font-medium">Udah ketemu area rumah yang kena matahari pagi min. 4 jam.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-green-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-green-100">
+<input type="checkbox" class="w-5 h-5 text-primary-green rounded focus:ring-primary-green accent-primary-green">
+<span class="text-gray-700 font-medium">Sepakat mulai dari kangkung atau bayam dulu.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-green-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-green-100">
+<input type="checkbox" class="w-5 h-5 text-primary-green rounded focus:ring-primary-green accent-primary-green">
+<span class="text-gray-700 font-medium">Komitmen luangin waktu 15 menit aja setiap pagi/sore.</span>
+</label>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+<!-- ============================================== -->
+<!-- LAYER 2: SETUP DASAR                           -->
+<!-- ============================================== -->
+<div id="layer2" class="scroll-mt-24 pt-10">
+<div class="mb-10 pb-4 border-b-2 border-accent-orange">
+<h2 class="text-3xl font-bold text-gray-900 mb-2">Bab 2: Setup Dasar yang Anti Ribet</h2>
+<p class="text-gray-600 text-lg">Memilih media tanam, pot, dan menyiapkan 'rumah' yang nyaman untuk sayuran kita.</p>
+</div>
+
+<div class="space-y-8">
+<!-- Cara 6 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-accent-orange">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">6. Gunakan Tanah "Adonan Kue" Biar Akar Bebas Bernapas</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kita sering mikir, "Ah, ambil aja tanah dari pekarangan depan atau bekas galian buat diisi ke pot." Pas disiram, tanahnya malah jadi keras kayak batu atau becek kayak lumpur. Alhasil, akar tanaman sesak napas dan busuk di dalam.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Jangan pernah pakai 100% tanah pekarangan murni untuk pot. Tanah kebun butuh campuran biar gembur.</li>
+<li>Bayangin kita lagi bikin adonan kue bolu; nggak boleh terlalu padat, tapi harus ngembang. Media tanam yang bagus itu empuk dan berongga.</li>
+<li>Paling gampang dan aman buat pemula: Beli aja <strong>Media Tanam Siap Pakai</strong> di toko pertanian. Pastikan di kemasannya tertulis ada campuran: Tanah, Sekam Bakar (kulit padi gosong), dan Pupuk Kandang/Kompos.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>2-3 karung kecil Media Tanam Siap Pakai (harganya biasanya Rp 10.000 - Rp 15.000 per karung)</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 0 menit (langsung tuang dari karung).</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Sayuran punya kasur yang empuk buat perakarannya memanjang.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 7 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-accent-orange">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">7. Rahasia Pot Murah Meriah: Polybag Hitam</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Lagi-lagi tergoda liat pot keramik pastel di mal. Harganya mahal, berat pas digeser, dan kadang malah nggak ada lubang airnya di bawah. Pas tanaman mati, pot cantiknya teronggok menuhin teras.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Tunda dulu beli pot mahal. Sebagai gantinya, gunakan <strong>Polybag hitam</strong> plastik yang sering dipakai abang-abang penjual tanaman.</li>
+<li>Harganya sangat murah (bisa dapat puluhan lembar dengan Rp 15.000), ringan digeser kalau kita mau cari sinar matahari, dan lubang drainasenya sudah banyak.</li>
+<li>Pilih ukuran sedang, kira-kira diameter 20-25 cm (ukuran polybag 30x30). Ini udah cukup banget buat kangkung atau bayam.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>1 pak Polybag ukuran 30x30 atau diameter 25 cm.</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Cukup 1 kali beli untuk puluhan tanaman.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Hemat budget hingga 80% untuk memulai kebun.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 8 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-accent-orange">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">8. Tes Drainase: Aturan "Air Harus Turun"</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Sering ngerasa udah nyiram rajin, tapi kok daunnya layu menguning? Bisa jadi bawah potnya mampet, airnya menggenang di dasar tanah bikin akar terendam kayak lagi kebanjiran berhari-hari.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Setelah masukin media tanam ke polybag/pot, jangan langsung kasih benih.</li>
+<li>Lakukan simulasi: siram pot tersebut dengan air yang cukup banyak.</li>
+<li>Perhatikan bagian bawah pot. Kalau dalam hitungan detik airnya keluar ngucur dari lubang bawah, berarti aman.</li>
+<li>Kalau airnya mandek di atas dan lama meresapnya, gawat! Segera tambahkan sekam bakar ke dalam tanahnya agar lebih berongga.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Air secukupnya</li>
+<li>Wadah atau pot yang sudah diisi tanah</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 2 menit pengujian.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Mencegah tanaman mati konyol karena akar busuk kebanjiran.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 9 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-accent-orange">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">9. Tata Pot Seperti Barisan Paduan Suara</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Karena terbatasnya tempat, kita suka jejerin pot dempet-dempetan banget sampai daunnya saling menutupi. Akibatnya, ada tanaman yang kurus karena kalah saing rebutan cahaya matahari sama temannya sendiri.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Atur jarak antar pot. Kasih ruang napas kira-kira selebar 1 telapak tangan di antara polybag.</li>
+<li>Susun seperti barisan paduan suara: pot yang tanamannya tinggi (atau punya rak) ditaruh di belakang.</li>
+<li>Pot yang tanamannya masih pendek atau baru bertunas ditaruh di paling depan.</li>
+<li>Dengan begini, nggak ada tanaman yang terhalang dari sinar matahari pagi kesukaannya.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Tenaga sedikit buat geser-geser pot</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 5 menit menata barisan.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Semua tanaman tumbuh serempak dan dapat sinar yang adil.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 10 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-accent-orange">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">10. Trik Tabur Benih: Jangan Terlalu Rapat!</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Saking semangatnya, kita sering tuang benih kangkung banyak-banyak ke satu pot biar kelihatan rimbun. Eh pas tumbuh, batangnya malah lemas kayak mie rebus karena mereka saling berebut nutrisi di area sempit.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Untuk 1 polybag ukuran sedang (diameter 25cm), jangan tabur setengah bungkus!</li>
+<li>Cukup beri sekitar 10-15 butir benih kangkung atau sejumput kecil benih bayam per potnya.</li>
+<li>Beri jarak antar benih di tanah. Bayangkan mereka saat besar nanti butuh ruang untuk merentangkan daunnya.</li>
+<li>Tutup benih tipis-tipis saja dengan tanah (kira-kira setebal 1 cm), jangan dikubur terlalu dalam agar tunasnya kuat menerobos naik.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Benih andalan kita</li>
+<li>Ujung jari untuk membuat lubang kecil di tanah</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 5 menit menyemai 1 pot.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Batang kangkung tumbuh besar, kokoh, dan daunnya lebar.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 11 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-accent-orange">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">11. Selimuti Tanah Pakai "Selimut" Daun Kering</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kita sering bete pas siang bolong ngelihat tanah di pot tiba-tiba retak dan kering kerontang, padahal paginya baru aja disiram sampai basah. Cuaca panas emang gampang banget menguapkan air.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Kumpulkan daun-daun kering di halaman atau sisa cabutan rumput liar.</li>
+<li>Tebarkan tipis-tipis di atas permukaan tanah dalam pot (di dunia pertanian ini namanya <em>mulsa</em>).</li>
+<li>"Selimut" ini bakal menghalangi sinar matahari langsung menyengat ke tanah, jadi kelembapan air di dalamnya bisa awet sampai sore.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Segenggam daun kering atau cacahan kardus tak terpakai</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 2 menit aja.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Tanah awet lembap, kita nggak perlu repot nyiram dua kali sehari.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 12 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-accent-orange">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">12. Tancapkan "KTP" Tanaman Biar Nggak Tertukar</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Saking semangatnya, kadang kita nebar berbagai macam benih di pot yang bentuknya sama semua. Seminggu kemudian pas tunasnya muncul hijau-hijau kecil, kita malah bingung dan tebak-tebakan, "Eh, ini kemarin bayam apa kangkung ya?"</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Ambil stik es krim bekas atau sendok plastik yang udah dicuci bersih.</li>
+<li>Tulis nama sayuran dan tanggal kamu menyemai benih tersebut.</li>
+<li>Tancapkan di pinggir pot. "KTP" ini sangat membantu kita mengingat kapan tepatnya jadwal panen ideal si sayur.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Stik es krim / sendok plastik bekas</li>
+<li>Spidol permanen (biar tintanya nggak luntur kena air siraman)</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 3 menit bikin label.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Kebun terlihat lebih rapi dan bebas dari insiden salah potong sayur.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 13 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-accent-orange">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">13. Pasang Tatakan Air Biar Lantai Tetap Kinclong</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Buat yang nanam di teras keramik atau balkon, pasti sering diomelin orang rumah karena tiap habis nyiram, air sisa dari tanah mbleber ke mana-mana bikin lantai becek dan kotor kecokelatan.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Cari wadah plastik ceper tak terpakai, piring melamin bekas, atau beli tatakan pot murah meriah.</li>
+<li>Letakkan di bawah polybag atau potmu sebagai pijakan.</li>
+<li>Air sisa siraman akan tertampung dengan rapi. Bonusnya: saat cuaca terik, air di tatakan ini pelan-pelan bakal diserap lagi oleh tanah dari lubang bawah pot.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Piring plastik / nampan / tatakan pot diameter 20-30 cm</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 1 menit meletakkan tatakan.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Area kebun bersih bersinar, orang rumah senang, kita tenang.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 14 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-accent-orange">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">14. Kasih "Tongkat Penyangga" Buat Tunas yang Memanjang</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Sedih banget rasanya ngelihat tanaman yang daunnya udah mulai rimbun, tiba-tiba layu patah gara-gara ketiup angin kencang semalaman, atau karena batangnya kurang kuat menopang daun yang membesar.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Kalau menanam di balkon lantai atas yang anginnya lumayan brutal, rapatkan barisan pot ke dekat dinding untuk berlindung.</li>
+<li>Untuk sayuran yang batangnya tinggi langsing (seperti tomat ceri atau kangkung jumbo), tancapkan lidi tebal atau tusuk sate sedalam mungkin di dekat pangkalnya.</li>
+<li>Ikat pelan batang tanaman ke lidi tersebut pakai benang katun tipis. Jangan diikat terlalu mencekik ya, batangnya harus tetap punya ruang untuk membesar.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Tusuk sate panjang / sumpit bambu / lidi tebal</li>
+<li>Benang wol atau tali rafia tipis</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 3 menit membuat ikatan pelindung.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Tanaman berdiri tegak, cantik, dan selamat dari serangan angin.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 15 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-accent-orange">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">15. Sediakan "Lauk Pauk" Kompos Sebelum Berangkat Tumbuh</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kita merasa udah rajin nyiram dan sinar matahari dari pagi sampai siang udah mantap, tapi kok pertumbuhan daunnya ngadat dan warnanya kekuningan? Padahal harusnya hijau segar.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Ibarat ngasih makan anak balita, kalau cuma disuapin nasi putih (tanah biasa) tanpa lauk, pasti badannya lemas. Lauk buat sayuran adalah pupuk alami!</li>
+<li>Saat pertama mencampur tanah ke pot (sebelum ditebar benih), tambahkan minimal 1 genggam besar pupuk kompos atau pupuk kandang yang sudah matang dan hitam.</li>
+<li>Aduk merata. Bekal ini udah cukup banget sebagai amunisi awal mereka sampai masa panen sayuran daun tiba. Sebisa mungkin, kita hindari dulu mainan pupuk pabrik (kimia) agar sayur kita murni sehat!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>1 genggam pupuk kompos daun atau pupuk kandang sapi yang sudah tidak berbau.<br><a href="https://s.shopee.co.id/8AAsvQ7X4d" target="_blank" class="text-blue-600 hover:text-blue-800 underline font-medium mt-1 inline-block">Beli rekomendasi kompos organik di Shopee 🛒</a></li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 2 menit mencampur bekal ke tanah.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Daun sayuran lebar-lebar, hijau pekat, subur, dan lebih renyah saat ditumis.</span>
+</div>
+</div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10">
+<div class="lg:col-span-1 bg-red-50 border-t-8 border-red-500 rounded-2xl p-6 shadow-sm">
+<h3 class="text-xl font-bold text-red-700 mb-4">🛑 Jangan Lakukan Ini</h3>
+<p class="text-sm text-red-600 mb-4">Kesalahan Setup yang Bikin Nangis Darah:</p>
+<ul class="space-y-4 text-sm text-red-800">
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Memakai botol bekas atau ember yang <strong>lupa dilubangi bawahnya</strong>. Airnya ngendap dan tanah jadi sarang nyamuk.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Menggali tanah padat dari kebun belakang rumah murni tanpa dicampur sekam sama sekali.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Menumpuk benih di satu titik tengah pot persis. Harusnya disebar merata.</span>
+</li>
+</ul>
+</div>
+
+<div class="lg:col-span-2 bg-white rounded-2xl p-6 shadow-sm border border-gray-200 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-40 h-40 bg-orange-50 rounded-bl-full -z-10"></div>
+<h3 class="text-xl font-bold text-gray-800 mb-2">✅ Checklist Bab 2</h3>
+<p class="text-gray-600 mb-6 text-sm">Mari pastikan Setup Dasar ini sudah beres sebelum tebar benih.</p>
+<div class="space-y-3">
+<label class="flex items-center gap-3 p-3 hover:bg-orange-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-orange-100">
+<input type="checkbox" class="w-5 h-5 text-accent-orange rounded focus:ring-accent-orange accent-accent-orange">
+<span class="text-gray-700 font-medium">Sudah beli 'Media Tanam Siap Pakai' yang gembur dan dicampur 1 genggam 'lauk' kompos.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-orange-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-orange-100">
+<input type="checkbox" class="w-5 h-5 text-accent-orange rounded focus:ring-accent-orange accent-accent-orange">
+<span class="text-gray-700 font-medium">Beli Polybag hitam aja untuk pot perdana + tes siram biar air lancar turun.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-orange-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-orange-100">
+<input type="checkbox" class="w-5 h-5 text-accent-orange rounded focus:ring-accent-orange accent-accent-orange">
+<span class="text-gray-700 font-medium">Udah nyiapin tatakan piring plastik di bawah pot biar lantai aman dari becek.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-orange-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-orange-100">
+<input type="checkbox" class="w-5 h-5 text-accent-orange rounded focus:ring-accent-orange accent-accent-orange">
+<span class="text-gray-700 font-medium">Udah tancepin stik es krim sebagai "KTP" tanggal tanam dan jenis benihnya.</span>
+</label>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================== -->
+<!-- LAYER 3: PILIHAN TANAMAN                       -->
+<!-- ============================================== -->
+<div id="layer3" class="scroll-mt-24 pt-10">
+<div class="mb-10 pb-4 border-b-2 border-teal-500">
+<h2 class="text-3xl font-bold text-gray-900 mb-2">Bab 3: Katalog Sayuran Anti Galau</h2>
+<p class="text-gray-600 text-lg">Membantu kita ambil keputusan mau tanam apa hari ini tanpa pusing.</p>
+</div>
+
+<!-- Tabel Perbandingan (Wajib) -->
+<div class="bg-white rounded-2xl shadow-sm border border-gray-200 p-6 md:p-8 mb-10 overflow-x-auto">
+<h3 class="text-xl font-bold text-gray-800 mb-4 text-center">Tabel Pintar: Pilih Sayuran Pertamamu</h3>
+<p class="text-gray-600 text-sm text-center mb-6">Jangan bingung! Cocokkan kebutuhan dapurmu dengan tabel di bawah ini.</p>
+<table class="min-w-full text-left text-sm text-gray-700 border-collapse">
+<thead class="bg-teal-50 text-teal-800 font-semibold text-center border-b-2 border-teal-200">
+<tr>
+<th class="p-4 rounded-tl-lg">Nama Tanaman</th>
+<th class="p-4">Waktu Panen</th>
+<th class="p-4">Tingkat Kemudahan</th>
+<th class="p-4 rounded-tr-lg">Paling Cocok Untuk</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-gray-100 text-center">
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="p-4 font-bold text-gray-900">Kangkung Darat</td>
+<td class="p-4">20-25 Hari</td>
+<td class="p-4"><span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs">Super Gampang</span></td>
+<td class="p-4">Tumisan kilat, pemula yang nggak sabaran</td>
+</tr>
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="p-4 font-bold text-gray-900">Bayam Hijau/Merah</td>
+<td class="p-4">25-30 Hari</td>
+<td class="p-4"><span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs">Super Gampang</span></td>
+<td class="p-4">Sayur bening, asupan gizi anak</td>
+</tr>
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="p-4 font-bold text-gray-900">Daun Bawang (Regrow)</td>
+<td class="p-4">14 Hari</td>
+<td class="p-4"><span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-xs">Super Gampang</span></td>
+<td class="p-4">Bumbu pelengkap, taburan sup</td>
+</tr>
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="p-4 font-bold text-gray-900">Sawi Caisim</td>
+<td class="p-4">30-40 Hari</td>
+<td class="p-4"><span class="bg-teal-100 text-teal-700 px-3 py-1 rounded-full text-xs">Gampang</span></td>
+<td class="p-4">Topping mie instan, mie ayam rumah</td>
+</tr>
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="p-4 font-bold text-gray-900">Selada Keriting</td>
+<td class="p-4">40-45 Hari</td>
+<td class="p-4"><span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-xs">Lumayan</span></td>
+<td class="p-4">Lalapan ayam goreng, salad</td>
+</tr>
+<tr class="hover:bg-gray-50 transition-colors">
+<td class="p-4 font-bold text-gray-900">Cabai Rawit / Tomat</td>
+<td class="p-4">70-90 Hari</td>
+<td class="p-4"><span class="bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-xs">Butuh Kesabaran</span></td>
+<td class="p-4">Menghemat uang belanja harian</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div class="space-y-8">
+<!-- Cara 16 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-teal-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">16. Kangkung Darat: Sang Juara Bertahan yang Cepat Panen</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Jujur aja, kita ini suka nggak sabaran. Pengennya nanam hari ini, bulan depan udah bisa ditumis. Kalau nunggu berbulan-bulan, keburu malas nyiramnya.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Jadikan kangkung sebagai proyek pertamamu. Benihnya besar, mudah dipegang, dan sangat cepat berkecambah (sekitar 3 hari).</li>
+<li>Kangkung sangat rakus air dan matahari, jadi aman kalau kamu sering kalap menyiram.</li>
+<li>Keajaiban kangkung: Saat panen, jangan dicabut sampai akar! Potong sisakan 3-5 cm dari tanah. Nanti dari sisa batang itu bakal tumbuh daun baru lagi. Praktis banget!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Benih kangkung darat</li>
+<li>Gunting bersih (untuk panen nanti)</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Panen:</strong> 20 - 25 hari saja.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Tumis kangkung terasi super segar tanpa pestisida.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 17 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-teal-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">17. Bayam Cabut: Si Hijau Penyelamat Nafsu Makan Anak</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Susah banget nyuruh anak makan sayur. Kadang bayam yang kita beli di pasar daunnya bolong-bolong atau layu, bikin anak makin nggak selera.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Ajak si kecil ikut menabur benih bayam (benihnya sangat kecil seperti pasir). Ini adalah trik psikologis: anak biasanya lebih mau memakan hasil karya tanamannya sendiri.</li>
+<li>Bayam hijau pertumbuhannya lumayan cepat dan tekstur daunnya sangat lembut, sangat ramah untuk dikunyah anak-anak.</li>
+<li>Bisa juga dicampur menanam bayam merah biar kuah sayur beningnya berubah warna jadi pink alami!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Benih bayam hijau/merah</li>
+<li>Si kecil sebagai asisten berkebun</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Panen:</strong> 25 - 30 hari.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Momen bonding ibu-anak dan sayur bening yang sehat.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 18 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-teal-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">18. Sulap Sisa Dapur: "Regrow" Daun Bawang</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Setiap beli daun bawang seikat dari mamang sayur, pasti nggak habis dipakai semua. Sisanya masuk kulkas, lalu layu berlendir dan berujung di tempat sampah.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Saat masak, jangan potong habis daun bawang. Sisakan bagian putih bawahnya yang ada akar serabutnya (kira-kira sepanjang 5 cm).</li>
+<li>Tancapkan sisa batang berakar itu langsung ke pot berisi tanah basah.</li>
+<li>Biarkan terkena matahari pagi. Ajaibnya, dalam 2 hari bagian hijau daunnya akan memanjang kembali dengan sangat cepat!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Sisa bonggol daun bawang dari dapur</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Panen:</strong> 10 - 14 hari udah rimbun lagi.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Zero waste! Nggak perlu beli daun bawang lagi berbulan-bulan.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 19 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-teal-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">19. Caisim / Sawi Hijau: Sahabat Setia Mie Instan</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Malem-malem hujan, lapar, pengen masak mie instan tapi kurang afdol kalau nggak ada sayur ijonya. Masa iya jam segini mau ke warung sayur?</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Tanam 2-3 pot khusus untuk Caisim (Sawi Hijau). Sayur ini adalah "topping wajib" buat mie instan atau nasi goreng di rumah.</li>
+<li>Perawatan sawi sama mudahnya dengan kangkung. Tapi pastikan jangan telat menyiram karena daunnya mudah layu kalau kepanasan.</li>
+<li>Pas butuh, tinggal gunting 3-4 helai daun yang agak tua di bagian luar, biarkan daun mudanya di tengah tetap tumbuh.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Benih Caisim</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Panen:</strong> 30 - 40 hari.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Makan mie instan jadi lebih *guilt-free* (bebas rasa bersalah).</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 20 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-teal-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">20. Selada Keriting: Bikin Lalapan Ala Resto di Rumah</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Suka banget makan salad segar atau bikin burger di rumah. Tapi selada di supermarket tuh harganya lumayan mahal dan gampang banget lembek membusuk di kulkas.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Selada hijau/keriting ini cukup mudah, tapi dia lebih suka udara yang agak sejuk. Letakkan di tempat yang kena matahari pagi saja, hindari terik siang bolong.</li>
+<li>Beri jarak agak renggang antar tanaman selada di pot agar daunnya bisa mengembang mekar dengan cantik.</li>
+<li>Panenlah daun terluarnya saja dengan cara dipetik dari pangkal, biarkan jantungnya terus memproduksi daun baru.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Benih selada Grand Rapids (keriting)</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Panen:</strong> 40 - 45 hari.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Daun selada segar kriuk-kriuk tinggal petik buat lalapan pecel lele!</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 21 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-teal-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">21. Pakcoy: Si Mungil Estetik yang Super Gampang</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Pengen punya pot sayur yang bentuknya cantik banget buat difoto dan di-<em>update</em> ke status WA, tapi rasanya juga harus enak buat dimasak oseng-oseng bawang putih.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Pilihan jatuh pada Pakcoy (Sawi Sendok)! Bentuk bonggolnya sangat rapi mirip bunga mawar hijau yang sedang mekar.</li>
+<li>Pakcoy sangat suka dengan media tanam yang gembur dan kaya kompos.</li>
+<li>Saat panen, bisa dicabut beserta akar-akarnya, bentuknya yang estetik ini dijamin bikin bangga saat difoto!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Benih Pakcoy hijau</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Panen:</strong> 35 - 45 hari.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Kebun estetik nan bergizi yang bikin tetangga penasaran.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 22 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-teal-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">22. Kemangi: Wangi Penggugah Selera Makan</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Bikin pepes tahu atau sambal terasi rasanya ada yang kurang kalau nggak dipakein daun kemangi. Tapi kalau beli seiket di pasar sering berlebih dan gampang menghitam di kulkas.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Beli benih kemangi, atau kalau kamu beli kemangi utuh berbunga di pasar, jemur bunganya sampai kering dan sebar biji hitamnya ke tanah.</li>
+<li>Tanam di tempat yang terkena sinar matahari penuh. Baunya yang wangi juga ternyata dibenci oleh beberapa serangga hama lho!</li>
+<li>Rajin-rajinlah memetik pucuk daunnya agar dia makin rimbun bercabang dan tidak cepat berbunga (kalau berbunga, daunnya jadi agak alot).</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Benih / Biji kering bunga kemangi</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Panen:</strong> 30 hari (bisa dipetik berulang kali).</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Bumbu segar *on-demand* untuk aneka masakan Nusantara.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 23 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-teal-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">23. Kucai: Si Bandel yang Nggak Kenal Musim</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kadang kita tuh kelupaan nyiram sampai 2 hari karena ada urusan dadakan di luar kota. Pengen punya satu tanaman yang "bandel" banget dan susah matinya.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Jawabannya adalah Kucai! Bentuknya panjang mirip rumput, rasanya campuran antara bawang putih dan daun bawang.</li>
+<li>Kucai sangat tahan banting. Kepanasan, kurang air, dia tetap santai dan hidup subur.</li>
+<li>Gunting aja rata daunnya setiap kamu butuh untuk campuran martabak atau telur dadar. Dia akan tumbuh lagi dengan cepat!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Benih kucai / bibit umbi kucai</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Panen:</strong> 40 hari (setelahnya bisa dipotong tiap 2 minggu).</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Tanaman "abadi" yang akan selalu ada di potmu bertahun-tahun.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 24 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-teal-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">24. Tomat Ceri: Langkah Pertama Belajar Tanaman Berbuah</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Udah mulai bosan panen sayuran daun melulu. Rasanya gatal pengen naik level dan nyoba tantangan tanaman yang ada buah gelantungan berwarna merah.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Jangan langsung tanam tomat besar, mulailah dari Tomat Ceri (tomat kecil-kecil). Mereka lebih mudah berbuah dan lebih tahan penyakit.</li>
+<li>Gunakan pot yang agak besar (minimal ukuran polybag 40x40) dan berikan kayu penyangga (ajir) yang kuat karena batangnya bisa tumbuh setinggi dada orang dewasa.</li>
+<li>Ingat, tomat butuh sinar matahari seharian penuh (6-8 jam) agar bunganya mau berubah jadi buah.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Benih Tomat Ceri Manis</li>
+<li>Pot besar dan bambu penyangga 1 meter</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Panen:</strong> 60 - 90 hari.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Camilan sehat warna warni di teras, kepuasan level maksimal!</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 25 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-teal-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">25. Cabai Rawit: Tabungan Darurat Saat Harga Meroket</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Harga cabai di pasar suka naik turun nggak masuk akal bikin pusing uang belanja. Kalau masak nggak pakai cabai, keluarga komplain makanannya hambar.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Ambil 1 atau 2 cabai rawit merah yang paling keriting dan tua dari kulkas, belah dan ambil bijinya. Jemur seharian.</li>
+<li>Sebar biji tersebut di pot persemaian. Setelah tumbuh agak tinggi (sejengkal), pindahkan ke pot besar sendiri-sendiri.</li>
+<li>Menanam cabai butuh kesabaran tingkat dewa, karena dari sebar biji sampai cabai bisa merah butuh waktu 3 bulan. Tapi bayangkan, 1 pohon sehat bisa menghasilkan ratusan cabai berbulan-bulan!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Biji cabai mentah dari dapur / Benih Cabai Kemasan</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Panen:</strong> 80 - 100 hari.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Mengamankan uang belanja dapur dari inflasi dadakan!</span>
+</div>
+</div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10">
+<div class="lg:col-span-1 bg-red-50 border-t-8 border-red-500 rounded-2xl p-6 shadow-sm">
+<h3 class="text-xl font-bold text-red-700 mb-4">🛑 Jangan Lakukan Ini</h3>
+<p class="text-sm text-red-600 mb-4">Hindari kesalahan Pemula Saat Memilih Tanaman:</p>
+<ul class="space-y-4 text-sm text-red-800">
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Langsung menanam Kubis, Kol, atau Wortel. Mereka sayuran dataran tinggi yang butuh iklim dingin dan teknik khusus.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Membeli benih impor dengan kemasan huruf asing yang harganya murah banget di online shop (seringkali susah berkecambah). Beli merk lokal aja!</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Menggunakan biji dari tomat atau cabai hijau (mentah). Biji yang bagus adalah dari buah yang sangat merah atau keriput.</span>
+</li>
+</ul>
+</div>
+
+<div class="lg:col-span-2 bg-white rounded-2xl p-6 shadow-sm border border-gray-200 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-40 h-40 bg-teal-50 rounded-bl-full -z-10"></div>
+<h3 class="text-xl font-bold text-gray-800 mb-2">✅ Checklist Bab 3</h3>
+<p class="text-gray-600 mb-6 text-sm">Pastikan benihmu sudah sesuai dengan *checklist* ini.</p>
+<div class="space-y-3">
+<label class="flex items-center gap-3 p-3 hover:bg-teal-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-teal-100">
+<input type="checkbox" class="w-5 h-5 text-teal-600 rounded focus:ring-teal-500 accent-teal-600">
+<span class="text-gray-700 font-medium">Udah lihat tabel dan milih maksimal 2 jenis tanaman dulu untuk proyek awal.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-teal-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-teal-100">
+<input type="checkbox" class="w-5 h-5 text-teal-600 rounded focus:ring-teal-500 accent-teal-600">
+<span class="text-gray-700 font-medium">Pilihan perdanaku jatuh pada sayur daun (Kangkung / Bayam / Caisim).</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-teal-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-teal-100">
+<input type="checkbox" class="w-5 h-5 text-teal-600 rounded focus:ring-teal-500 accent-teal-600">
+<span class="text-gray-700 font-medium">Udah siapin 1 pot kecil buat nancepin sisa Daun Bawang dari dapur.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-teal-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-teal-100">
+<input type="checkbox" class="w-5 h-5 text-teal-600 rounded focus:ring-teal-500 accent-teal-600">
+<span class="text-gray-700 font-medium">Udah janji menunda nanam cabai / tomat sebelum kangkungku sukses dipanen.</span>
+</label>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================== -->
+<!-- LAYER 4: PERAWATAN & MASALAH                   -->
+<!-- ============================================== -->
+<div id="layer4" class="scroll-mt-24 pt-10">
+<div class="mb-10 pb-4 border-b-2 border-blue-500">
+<h2 class="text-3xl font-bold text-gray-900 mb-2">Bab 4: Perawatan & Jadi Dokter Tanaman</h2>
+<p class="text-gray-600 text-lg">Mengenal bahasa tanaman, menyiram dengan benar, dan meracik obat anti hama dari dapur.</p>
+</div>
+
+<div class="space-y-8">
+<!-- Cara 26 -->
+<div id="cara-26" class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500 scroll-mt-24">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">26. Aturan Menyiram: Pakai Perasaan, Bukan Jadwal Kaku</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kita sering banget mikir, "Pokoknya harus disiram pagi jam 7 dan sore jam 5, dua gayung tiap pot!" Akibatnya pas lagi musim hujan dan tanah masih basah, kita tetap siram. Ujung-ujungnya akar membusuk karena kebanjiran.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Jangan pernah terpaku pada jadwal mati. Tanaman itu makhluk hidup, kebutuhannya berubah tergantung cuaca.</li>
+<li>Gunakan "Jurus Telunjuk": Sebelum menyiram, tusukkan jari telunjukmu ke tanah sedalam 1 ruas (kira-kira 2 cm).</li>
+<li>Kalau ujung jarimu merasakan tanah basah dan menempel, <strong>jangan disiram</strong>! Biarkan saja.</li>
+<li>Kalau jarimu terasa kering dan tanahnya ambyar berdebu, barulah siram sampai air keluar dari bawah pot.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Jari telunjuk tanganmu sendiri (alat paling canggih!)</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 5 detik ngecek per pot.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Tanaman bebas dari risiko busuk akar karena <em>overwatering</em>.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 27 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">27. Detektif Daun: Beda Daun Kuning Kurang Air vs Kebanyakan Air</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Paling panik kalau tiba-tiba lihat daun bagian bawah berubah jadi kuning. Kita bingung, "Ini dia kehausan minta air, atau malah karena aku nyiramnya kemaren kebanyakan ya?"</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Pegang daun kuning tersebut. Kalau teksturnya garing, rapuh, dan pinggirannya kecokelatan krispi, berarti dia <strong>kekurangan air</strong> (kehausan).</li>
+<li>Tapi kalau daun kuningnya terasa lemas, lembek, agak transparan, dan gampang banget rontok pas disentuh, itu tandanya dia <strong>kebanyakan air</strong> (akar megap-megap).</li>
+<li>Segera buang daun yang sudah menguning agar penyakit/jamur tidak menular ke daun yang masih sehat di atasnya.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Mata yang jeli dan keberanian memetik daun rusak</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 1 menit mengamati.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Kamu bisa langsung tahu tindakan perbaikan apa yang harus dilakukan besoknya.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 28 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">28. Sulap Sampah Dapur Jadi Vitamin Tanaman (POC Organik)</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kadang kita malas beli pupuk cair botolan di toko pertanian karena harganya lumayan, belum lagi takut salah dosis pakai pupuk kimia yang bikin tanaman malah mati gosong.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Jangan buang sisa kupasan kulit bawang merah/putih dan air bilasan beras pertama! Keduanya adalah "minuman energi" paling bagus buat sayuran daun.</li>
+<li>Masukkan kulit bawang ke dalam botol bekas, lalu tuang air cucian beras ke dalamnya.</li>
+<li>Diamkan (fermentasi) di tempat teduh selama 1-2 malam. Airnya akan agak berbau asam segar.</li>
+<li>Gunakan air ajaib ini untuk menyiram tanah (jangan kena daunnya langsung) seminggu sekali.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Air cucian beras & kulit bawang sisa masak</li>
+<li>Botol plastik bekas ukuran 1 liter</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 2 menit meracik di dapur.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Daun sayuran bakal hijau pekat, mengkilap, dan lebat tanpa biaya sepeser pun!</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 29 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">29. Aturan Main Pupuk: "Makan Sedikit Tapi Sering"</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Saking pengennya kangkung kita cepat besar, kita taburin pupuk kandang sekeranjang penuh ke satu pot. Besoknya malah kaget lihat tanamannya layu berjamaah kayak habis kena siram air panas.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Pupuk organik itu sifatnya memancarkan hawa panas saat terurai di tanah. Kalau kebanyakan, akar sayuran yang masih muda bisa "terbakar" atau gosong.</li>
+<li>Terapkan prinsip: Lebih baik kasih sedikit-sedikit tapi rutin seminggu sekali, daripada ngasih segunung tapi cuma sebulan sekali.</li>
+<li>Untuk polybag ukuran sedang, cukup beri 1-2 sendok makan pupuk kompos, taburkan di pinggiran pot (menjauh dari batang utama), lalu siram dengan air agar meresap.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Pupuk kompos / pupuk kandang matang</li>
+<li>Sendok makan bekas</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 3 menit mupuk di akhir pekan.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Nutrisi terserap perlahan dan maksimal, sayur tumbuh mulus.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 30 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">30. Musus Dalam Selimut: Mengusir Kutu Putih di Balik Daun</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Lagi asik lihat daun dari atas kelihatan mulus, eh pas daunnya dibalik, astaga! Banyak banget gerombolan bintik-bintik putih mirip kapas atau ketombe yang nempel lengket. Daunnya lama-lama jadi keriting.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Itu namanya Kutu Putih (Mealybug). Mereka ini lintahnya tanaman, menghisap cairan daun sampai kering dan keriting.</li>
+<li>Kalau jumlahnya masih sedikit (1-3 daun), langsung petik saja daun yang terserang dan buang ke tong sampah (jangan ke tanah pot!).</li>
+<li>Kalau lumayan banyak, gunakan kapas atau cotton bud, celupkan ke air sabun, lalu usap perlahan kutu tersebut sampai rontok dari belakang daun.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Cotton bud (korek kuping) atau kapas</li>
+<li>Air yang dicampur sedikit sabun</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 5-10 menit terapi mengelap daun.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Kutu putih musnah seketika sebelum sempat bertelur dan menyebar ke pot lain.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 31 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">31. Racik Pestisida Nabati Super Gampang dari Sabun Cuci Piring</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kita kan nanam di rumah tujuannya biar keluarga makan sayur sehat tanpa racun kimia. Tapi kalau hamanya udah mulai banyak kayak semut dan kutu, kita bingung nyemprot pakai apa yang aman kalau termakan?</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Cukup pergi ke dapur! Campurkan 1 tetes (sangat sedikit) sabun cuci piring cair (kayak Sunlight/Mama Lemon) ke dalam 1 liter air di botol semprotan.</li>
+<li>Biar makin mematikan buat hama, geprek 2 siung bawang putih, rendam di air semprotan itu semalaman.</li>
+<li>Saring airnya, dan voila! Kamu punya pestisida organik bau bawang yang sangat dibenci serangga tapi 100% aman buat manusia.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>1 botol semprotan air kecil (spray)</li>
+<li>Sabun cuci piring & Bawang putih</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 5 menit meracik ramuan.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Serangga minggat, tapi sayur tetap aman dimakan anak-anak (setelah dicuci bersih).</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 32 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">32. Waktu Terbaik Menyemprot Hama: Jangan Siang Bolong!</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Pas siang terik, kita lihat ada ulat atau semut, langsung aja kita ambil semprotan dan basahin semua daunnya. Eh, sorenya daun malah muncul bercak-bercak cokelat kayak kebakar matahari. Lho kok gitu?</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Butiran air yang menempel di daun saat matahari sedang terik-teriknya akan bertindak seperti kaca pembesar! Cahaya matahari akan difokuskan dan membakar permukaan daun.</li>
+<li>Selain itu, hama juga biasanya bersembunyi di dalam tanah saat siang hari untuk menghindari panas.</li>
+<li>Jadi, selalu lakukan penyemprotan pestisida nabati pada <strong>sore hari (setelah jam 4 sore)</strong>. Di jam ini, hama mulai keluar cari makan, dan daun aman dari terik matahari.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Botol spray berisi ramuan sabun + bawang putih</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 3 menit keliling menyemprot di sore hari.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Penyemprotan tepat sasaran, hama lenyap, daun tetap cantik nggak gosong.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 33 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">33. Pasukan Ulat Hijau: Rela Berbagi atau Capit Buang?</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kemarin daun caisimnya masih utuh cantik. Pagi ini pas dilihat, sebagian daunnya bolong-bolong parah bekas gigitan bergerigi, dan ada "kotoran" bulat-bulat hitam kecil di permukaan tanah. Siapa pelakunya?</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Itu sudah pasti ulah ulat daun (biasanya warnanya hijau pucat, nyamar banget sama warna daun, ngumpet di batang dalam atau balik daun).</li>
+<li>Pestisida nabati kadang nggak mempan buat ulat yang ukurannya udah besar.</li>
+<li>Cara paling jitu, ampuh, dan berani: Cari pelakunya (biasanya pagi hari mereka rakus makan). Kalau jijik pakai tangan, gunakan sumpit bekas atau pinset capit untuk menjepit ulat tersebut, lalu buang jauh-jauh.</li>
+<li>Anggap saja ini sebagai pajak alam. Sayuran yang dimakan ulat justru tanda mutlak bahwa tanamanmu 100% bebas racun kimia berbahaya!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Pinset kosmetik yang tak terpakai atau sumpit makan bekas</li>
+<li>Mental yang sedikit berani!</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 2 menit operasi pencarian ulat.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Menghentikan kerusakan daun dalam hitungan detik.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 34 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">34. Ampas Kopi Buat Mengusir Pasukan Semut</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kok tiba-tiba di sekitar pot banyak banget semut hitam atau merah yang baris-berbaris masuk ke dalam tanah? Jangan-jangan mereka mau bikin sarang dan gigitin akar?</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Semut di pot itu bukan cuma bikin gatal kalau kita lagi nyiram, tapi mereka ini "peternak" kutu daun lho! Mereka bawa kutu ke daun buat diambil cairan manisnya.</li>
+<li>Jangan siram tanah pakai racun serangga botolan, bahaya buat sayurnya.</li>
+<li>Mintalah ampas kopi hitam (kopi tubruk asli, tanpa gula susu) sisa bapaknya ngopi. Jemur sebentar, lalu taburkan di atas permukaan tanah pot. Semut benci banget sama aroma kopi yang kuat!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Ampas kopi hitam sisa seduhan (gratis dari dapur)</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 1 menit naburin ampas.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Pot aman dari semut, dan ampas kopi pelan-pelan jadi pupuk cacing tanah.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 35 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">35. Putar Pot Biar Tumbuhnya Nggak Miring Kayak Menara Pisa</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Awalnya tumbuh tegak ke atas, eh minggu kedua kok batangnya pada bengkok menunduk ke satu arah semua? Kelihatannya kurang estetik dan gampang patah.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Tanaman itu makhluk yang selalu mengejar cahaya (fototropisme). Kalau matahari datangnya dari arah balkon luar, mereka pasti akan membungkuk ke arah luar mencari sinar.</li>
+<li>Obatnya super simpel: Setiap akhir pekan (seminggu sekali), putar potmu 180 derajat.</li>
+<li>Bagian daun yang tadinya menghadap tembok, sekarang hadapkan ke arah luar. Dalam beberapa hari, batangnya akan lurus kembali.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Kedua tangan kita yang perkasa</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 2 detik per pot setiap hari Minggu.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Sayuran tumbuh tegak lurus, cantik, dan seimbang dari semua sisi.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 36 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">36. Tega Menggunting Daun Tua Demi Daun Baru (Pruning)</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Sayang banget rasanya mau buang daun-daun di bagian paling bawah yang udah agak sobek-sobek, kusam, atau menyentuh tanah. Biarin aja lah ya menempel di batang biar kelihatan rimbun?</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Jangan dibiarkan! Daun tua yang menempel di tanah sangat rentan jamur, menghalangi sirkulasi udara ke batang, dan diam-diam tetap mencuri nutrisi makanannya daun muda lho.</li>
+<li>Kita harus sedikit "tega". Ambil gunting bersih, potong habis 2-3 helai daun paling bawah yang sudah tidak mulus.</li>
+<li>Prinsipnya mirip potong rambut yang ujungnya bercabang, memotong bagian tua akan memicu pucuk muda tumbuh jauh lebih subur dan cepat.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Gunting kertas/gunting dapur yang bersih</li>
+<li>Sikap tega dan ikhlas</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 5 menit (sambil inspeksi pagi).</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Makanan (pupuk) 100% fokus lari ke daun pucuk yang siap kita makan.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 37 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">37. Garpu Bekas Buat Napas Tambahan di Tanah (Aerasi)</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Udah jalan 3 minggu nanam, kok kerasa tanah di potnya mulai keras dan memadat ya? Air siraman rasanya jadi lebih lama meresap ke bawah ketimbang waktu awal-awal dulu.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Wajar, tanah emang bakal memadat seiring seringnya kena siraman air dari atas. Kalau dibiarkan, akar bisa sesak napas.</li>
+<li>Ambil garpu makan bekas (atau sumpit). Tusuk-tusuk perlahan area tanah di pinggiran pot (dekat dinding plastik polybag).</li>
+<li>Ingat, <strong>jangan ditusuk di tengah pot</strong> dekat batang agar akar utamanya tidak putus berdarah-darah! Cukup di tepiannya saja.</li>
+<li>Goyangkan garpu sedikit untuk membuat rongga-rongga udara (aerasi) agar oksigen dan air kembali lancar masuk ke dalam.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Garpu bekas atau sumpit bambu</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 2 menit per pot, lakukan 2 minggu sekali.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Tanah gembur kembali, akar bahagia bernapas lega.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 38 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">38. Tambal Tanah yang Turun Karena Sering Disiram</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Waktu baru nanam, tanahnya penuh sampai ke bibir pot. Kenapa setelah sebulan disiram tiap pagi, volume tanahnya menyusut ke bawah dan akar sayurannya sampai kelihatan nyembul ke luar?</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Jangan panik, ini hal biasa. Tanah campuran organik pasti menyusut karena komposnya mulai hancur terurai dimakan waktu.</li>
+<li>Akar yang nyembul ke atas permukaan pot itu bahaya kalau kena terik matahari langsung, bisa kering dan mati.</li>
+<li>Lakukan "Top Dressing" (Tambal atas): Ambil segenggam media tanam baru dari karung, taburkan merata di atas pot sampai akar-akar yang telanjang tadi tertutup kembali. Siram sedikit agar menempel.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Media tanam sisa di karung</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 3 menit nambahin tanah.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Akar kembali terlindungi selimut hangat, tanaman tegak kokoh lagi.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 39 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">39. Musim Hujan Tiba? Saatnya Rem Porsi Minumnya!</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Udah mulai masuk musim hujan nih. Udara dingin banget setiap hari dan mendung. Tapi karena aku udah komitmen nyiram jam 7 pagi, jadi tetep aja aku guyur itu sayuran setiap hari biar disiplin.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Stop rutinitas nyiram saat musim hujan mendung! Ingat lagi <a href="#cara-26" class="text-blue-600 underline hover:text-blue-800 font-medium">Jurus Telunjuk di Cara 26</a>.</li>
+<li>Tanpa terik matahari, penguapan air di pot berjalan sangat sangat lambat. Tanah bisa tetap basah berhari-hari.</li>
+<li>Kalau kamu paksa terus disiram, daun sayuranmu bukan membesar, malah akan muncul jamur putih (seperti bedak) di permukaannya karena terlalu lembap, dan akarnya akan membusuk.</li>
+<li>Cukup pantau saja, kalau tanahnya masih hitam basah, puasakan tanaman dari siraman air 1-2 hari.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Rem kesabaran dan kepekaan membaca cuaca</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Menghemat waktu kerjamu!</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Mencegah serangan jamur akibat kelembapan berlebih di musim hujan.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 40 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-blue-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">40. Ajak Ngobrol Tanamanmu (Serius, Ini Ngaruh Banget!)</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Kadang kalau lagi capek ngurus kerjaan rumah, rutinitas ngecek pot di depan teras terasa jadi beban tambahan. Kita nyiram dengan wajah cemberut sambil buru-buru.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Ubah momen berkebun ini murni jadi "Me-Time" alias waktu pelarian sehatmu dari stres.</li>
+<li>Jangan malu, saat kamu menyiram, ajak tanamanmu ngobrol pelan. Bilang saja, "Wah daunmu tambah gede ya, sehat-sehat terus ya biar cepet dipanen."</li>
+<li>Secara ilmiah, saat kita ngobrol dari jarak dekat, kita menghembuskan Karbon Dioksida (CO2) yang justru sangat dibutuhkan tanaman untuk fotosintesis lho!</li>
+<li>Secara psikologis, ini melepaskan hormon bahagia (endorfin) yang meredakan beban pikiran kita seharian. *Win-win solution!*</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Suara lembut kita dan senyuman di pagi hari</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Sambil menyiram.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> *Mood* ibu lebih stabil seharian, tanaman makin subur berkat ekstra CO2.</span>
+</div>
+</div>
+</div>
+
+
+<!-- Kotak Jangan Lakukan Ini & Checklist Bab 4 -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10">
+<div class="lg:col-span-1 bg-red-50 border-t-8 border-red-500 rounded-2xl p-6 shadow-sm">
+<h3 class="text-xl font-bold text-red-700 mb-4">🛑 Jangan Lakukan Ini</h3>
+<p class="text-sm text-red-600 mb-4">Kecelakaan fatal saat merawat yang sering terjadi:</p>
+<ul class="space-y-4 text-sm text-red-800">
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Menyemprot hama dengan racun serangga kimia/obat nyamuk botolan! Nanti sayurnya nggak bisa dimakan!</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Menyiram pakai air bekas cucian baju atau bilasan piring bersabun keras. Beda dengan 1 tetes sabun pestisida ya.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Ngasih pupuk mentah yang belum matang (kayak kotoran ayam segar atau sampah sayur belum hancur) ke dalam pot. Panasnya bakal bikin akar mati.</span>
+</li>
+</ul>
+</div>
+
+<div class="lg:col-span-2 bg-white rounded-2xl p-6 shadow-sm border border-gray-200 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-40 h-40 bg-blue-50 rounded-bl-full -z-10"></div>
+<h3 class="text-xl font-bold text-gray-800 mb-2">✅ Checklist Bab 4 (Perawatan)</h3>
+<p class="text-gray-600 mb-6 text-sm">Mari kita cek apakah insting merawatmu sudah tajam hari ini.</p>
+<div class="space-y-3">
+<label class="flex items-center gap-3 p-3 hover:bg-blue-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-blue-100">
+<input type="checkbox" class="w-5 h-5 text-blue-600 rounded focus:ring-blue-500 accent-blue-600">
+<span class="text-gray-700 font-medium">Udah komitmen nyiram pakai "Jurus Telunjuk", nggak asal guyur tiap pagi.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-blue-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-blue-100">
+<input type="checkbox" class="w-5 h-5 text-blue-600 rounded focus:ring-blue-500 accent-blue-600">
+<span class="text-gray-700 font-medium">Punya stok sebotol ramuan bawang + 1 tetes sabun cuci piring buat jaga-jaga kalau ada kutu.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-blue-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-blue-100">
+<input type="checkbox" class="w-5 h-5 text-blue-600 rounded focus:ring-blue-500 accent-blue-600">
+<span class="text-gray-700 font-medium">Janji mau rutin muterin pot setiap <strong><em>weekend</em></strong> biar batangnya nggak bengkok.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-blue-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-blue-100">
+<input type="checkbox" class="w-5 h-5 text-blue-600 rounded focus:ring-blue-500 accent-blue-600">
+<span class="text-gray-700 font-medium">Siap berani buang daun kuning/tua dan njepit ulat demi menyelamatkan seluruh tanaman.</span>
+</label>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- ============================================== -->
+<!-- LAYER 5: PANEN & KEBIASAAN                     -->
+<!-- ============================================== -->
+<div id="layer5" class="scroll-mt-24 pt-10 border-t border-gray-200 mt-10">
+<div class="mb-10 pb-4 border-b-2 border-purple-500">
+<h2 class="text-3xl font-bold text-gray-900 mb-2">Bab 5: Panen & Merawat Kebiasaan</h2>
+<p class="text-gray-600 text-lg">Mengubah hobi musiman menjadi gaya hidup sehat jangka panjang yang menyenangkan.</p>
+</div>
+
+<div class="space-y-8">
+<!-- Cara 41 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-purple-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">41. Waktu Panen Terbaik: Pagi Hari Saat Masih "Kriuk"</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Saking *excited*-nya lihat bayam udah gede, kita main petik aja pas jam 12 siang. Pas dibawa ke dapur, kok daunnya jadi lemas layu dan rasanya kurang renyah waktu ditumis?</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Tanaman sayur menyimpan cadangan air dan gula paling maksimal di daunnya sepanjang malam.</li>
+<li>Begitu matahari siang terik, sayuran akan menguapkan air tersebut sehingga daunnya sedikit lemas untuk bertahan hidup.</li>
+<li>Selalu jadwalkan panen di pagi hari (jam 06.00 - 08.00). Saat itulah daun sedang dalam kondisi paling segar, manis, renyah, dan penuh gizi!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Keranjang kecil atau mangkuk dapur bersih</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 5 menit potong memotong.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Sayuran dengan kualitas premium layaknya beli di supermarket mahal.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 42 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-purple-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">42. Teknik "Cukur Rambut" Biar Bisa Panen Berkali-kali</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Setiap panen kangkung atau bayam, kita langsung cabut sampai akar-akarnya. Alhasil, besoknya pot kosong lagi dan kita harus ngulang proses nebar benih dari nol yang butuh waktu sebulan penuh.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Terapkan metode <em>Cut-and-Come-Again</em> (Potong dan Tumbuh Lagi). Ini rahasia kebun produktif!</li>
+<li>Saat kangkung/bayam/kucai siap panen, gunting batangnya dan sisakan sekitar 3 sampai 5 sentimeter di atas tanah (jangan dicabut akarnya).</li>
+<li>Terus siram dan beri pupuk seperti biasa. Dalam hitungan 7-10 hari, tunas daun baru yang rimbun akan muncul lagi dari sisa batang potongannya!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Gunting dapur yang tajam dan bersih</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Panen lebih cepat!</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> 1 kali tebar benih bisa untuk 3-4 kali masak besar.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 43 -->
+<div id="cara-43" class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-purple-500 scroll-mt-24">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">43. SPA Tanah: Jemur Pot Setelah Panen Total</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Setelah tanaman tua dicabut total, kita langsung timpa tanah bekasnya dengan benih baru. Tiba-tiba benih barunya tumbuh kerdil dan gampang kena penyakit. Padahal dulu tanahnya subur.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Tanah bekas panen itu ibarat orang habis kerja keras; energinya habis dan mungkin ada jamur/bakteri jahat yang tertinggal.</li>
+<li>Cabut semua sisa akar, lalu biarkan tanah di dalam pot tersebut dijemur terik matahari selama 2-3 hari (jangan disiram). Ini berfungsi untuk mematikan bibit penyakit secara alami.</li>
+<li>Setelah dijemur, aduk-aduk tanahnya dan tambahkan segenggam kompos baru. Voila! Tanahnya subur kembali dan siap ditanami.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Cetok kecil / sarung tangan</li>
+<li>Kompos segar untuk mengisi nutrisi</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 3 hari masa istirahat pot.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Menghemat uang karena nggak perlu beli media tanam baru terus menerus.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 44 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-purple-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">44. Sistem "Arisan": Tanam Bertahap Biar Dapur Ngebul Terus</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Bulan pertama kita panen raya kangkung sampai tetangga kebagian semua. Tapi bulan depannya pot kita kosong total dan kita balik lagi beli sayur ke pasar. Sayang banget kan siklusnya putus?</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Jangan menanam semua benih yang kamu punya di satu hari yang sama!</li>
+<li>Buat jadwal tanam bertahap. Misalnya: Minggu pertama tanam 2 pot bayam. Tunggu minggu depannya, baru tanam lagi 2 pot caisim.</li>
+<li>Dengan sistem jeda waktu ini, tanamanmu akan masuk masa panen secara bergantian setiap minggunya. Kulkasmu nggak akan pernah kosong!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Kalender dapur / pengingat di HP</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Jeda 7-10 hari antar semai.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Panen berkesinambungan dan stabil tanpa harus bikin kebun besar.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 45 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-purple-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">45. Rayakan Panen Pertamamu Sebagai Kemenangan Keluarga</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Sering kali kita menganggap enteng hasil panen pertama yang cuma sewajan kecil. Kita masak buru-buru, makan biasa aja, dan kebun langsung kerasa jadi tugas berat lagi besok harinya.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Tumbuhkan rasa bangga! Berhasil menumbuhkan makanan dari tanah itu adalah keahlian bertahan hidup (<em>survival skill</em>) yang luar biasa bagi seorang ibu.</li>
+<li>Masaklah hasil panen pertamamu secara istimewa. Kasih tahu suami dan anak-anak, "Hari ini kita makan bayam hasil kebun mama sendiri lho!"</li>
+<li>Foto hasilnya sebelum dan sesudah dimasak. Rasa bangga ini adalah bahan bakar paling kuat agar kamu terus konsisten merawat tanaman ke depannya.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Kamera HP untuk dokumentasi</li>
+<li>Bumbu dapur favorit buat menumis sayur</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Sepanjang makan malam.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Rasa percaya diri meningkat drastis, keluarga ikut mengapresiasi usahamu.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 46 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-purple-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">46. "Zero Waste" Kebun: Jangan Buang Sisa Potongan Sayur</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Waktu nyiapin sayur hasil panen buat dimasak, batang-batang yang keras atau daun yang jelek kita buang aja ke tempat sampah plastik di dapur. Padahal ini sayang banget dibuang!</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Batang kangkung atau pangkal sawi yang alot jangan dibuang. Cacah atau potong kecil-kecil pakai pisau.</li>
+<li>Kubur cacahan sisa sayuran organik ini ke dalam tanah pot yang sedang kosong atau pot yang sedang diistirahatkan (<a href="#cara-43" class="text-purple-600 underline hover:text-purple-800 font-medium">lihat di cara 43</a>).</li>
+<li>Dalam beberapa minggu, sampah organik ini akan dimakan oleh cacing tanah dan berubah jadi pupuk kompos gratis terbaik di dunia! Kebunmu jadi mandiri secara nutrisi.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Pisau dapur</li>
+<li>Sisa potongan sayuran mentah</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> 2 menit buat mencacah dan mengubur.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Mengurangi sampah rumah tangga, tanah makin subur alami.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 47 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-purple-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">47. Dokumentasi Jurnal Fotonya Ibu-ibu: Grup WA Khusus</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Punya buku catatan jurnal itu kelihatannya keren, tapi buat ibu-ibu sibuk pasti nggak sempat nulis-nulis pakai bolpoin. Alhasil kita lupa kapan tepatnya kita nebar benih bayam kemarin.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Manfaatkan fitur WhatsApp! Bikin satu Grup WA yang isinya cuma kamu sendirian (caranya: bikin grup sama suami, lalu <strong><em>remove</em></strong> suami dari grup 😆✌️).</li>
+<li>Beri nama grup: "Jurnal Kebunku 🌱".</li>
+<li>Setiap kali menyemai benih, mupuk, atau ada daun yang aneh, foto saja lalu kirim ke grup itu lengkap dengan ketikan pendek. Ini jadi buku diari visual yang sangat praktis dan ada <em>timestamp</em>-nya!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Handphone ber-kamera</li>
+<li>Aplikasi WhatsApp</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Sekali jepret foto langsung kirim.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Data panen dan perkembangan terekam sempurna dan mudah dilacak.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 48 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-purple-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">48. Libatkan Anak Biar Ibu Nggak Kerja Sendirian</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Semakin nambah pot, makin kerasa capek kalau harus nyiram semuanya sendiri setiap sore. Anak-anak cuma nonton TV di dalam rumah.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Berkebun adalah alat edukasi terbaik untuk melatih rasa tanggung jawab anak.</li>
+<li>Beri tugas ringan yang menyenangkan: Belikan teko siram (<strong><em>watering can</em></strong>) plastik ukuran kecil untuk si bungsu. Tugaskan dia menyiram pot khusus barisan depan.</li>
+<li>Kalau mereka lupa, cukup ingatkan: "Wah Kak, kangkungnya kehausan minta minum tuh sama Kakak." Mereka akan merasa sangat bangga dan penting perannya!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Teko penyiram mini (bisa pakai botol air mineral dilubangi tutupnya)</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Mengurangi beban waktu kita 50%!</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Edukasi motorik anak tercapai, ibu jadi lebih rileks.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 49 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-purple-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">49. Jurus "Satu Pot Sebulan": Jangan Rakus Nambah Lahan</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Pas sukses panen raya di bulan pertama, kita langsung ngeborong 10 polybag dan berbagai benih langka. Akhirnya saking banyaknya yang harus diurus, kita kewalahan, lelah, dan kebun berakhir terbengkalai.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Pertumbuhan kebun harus sejalan dengan seberapa banyak waktu luang kita setiap hari.</li>
+<li>Terapkan batasan disiplin: Kamu hanya boleh menambah <strong>Maksimal 1 hingga 2 pot baru</strong> per bulan.</li>
+<li>Ekspansi yang perlahan akan memberikan waktu pada tubuh dan pikiranmu untuk beradaptasi dengan rutinitas menyiram dan merawat yang sedikit bertambah.</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Kendali diri tingkat tinggi saat scroll *marketplace*</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Pertumbuhan kebun organik yang wajar.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Berkebun tetap jadi hobi relaksasi, bukan jadi pabrik yang bikin stres.</span>
+</div>
+</div>
+</div>
+
+<!-- Cara 50 -->
+<div class="bg-white rounded-2xl shadow-md p-6 md:p-8 card-hover border-l-8 border-purple-500">
+<h3 class="text-2xl font-bold text-gray-800 mb-4">50. Ubah Mindset: Ini Adalah Maraton Gaya Hidup, Bukan Lari Sprint</h3>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-1">Keresahan Kita Bersama:</span>
+<p class="text-gray-600">Terkadang pas lagi musim kemarau panjang banyak tanaman yang gagal dan kering. Kita merasa sia-sia dan kepikiran mau jual semua pot lalu berhenti berkebun selamanya.</p>
+</div>
+<div class="mb-4">
+<span class="font-semibold text-gray-700 block mb-2">Langkah Penyelesaian:</span>
+<ol class="list-decimal list-inside text-gray-700 space-y-2 ml-2">
+<li>Sadari bahwa berkebun itu siklus hidup. Akan ada masa kebunmu subur rimbun seperti hutan peri, dan akan ada masa semuanya layu terserang cuaca. Itu sangat normal.</li>
+<li>Jadikan ini bagian dari identitas dirimu yang baru: "Aku adalah ibu yang menyatu dengan alam, gagal 1 tanaman bukan berarti aku gagal".</li>
+<li>Sama seperti yoga atau *jogging*, jadikan menyentuh tanah sebagai rutinitas menjemput sehat fisik dan ketenangan mental hingga masa tuamu nanti. Selamat, kamu sudah tiba di garis <em>finish</em> sebagai pekebun hebat!</li>
+</ol>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+<div class="bg-blue-50 p-4 rounded-lg">
+<span class="font-semibold text-blue-800 block mb-2">Yang perlu kamu siapkan:</span>
+<ul class="list-disc list-inside text-blue-700 text-sm space-y-1">
+<li>Hati yang bahagia dan penuh syukur</li>
+</ul>
+</div>
+<div class="bg-green-50 p-4 rounded-lg flex flex-col justify-center">
+<span class="text-sm text-green-800">⏱️ <strong>Estimasi Waktu:</strong> Untuk seumur hidup.</span>
+<span class="text-sm text-green-800 mt-2">✨ <strong>Hasil:</strong> Gaya hidup sehat mandiri pangan keluarga tercapai!</span>
+</div>
+</div>
+</div>
+
+<!-- Kotak Jangan Lakukan Ini & Checklist Bab 5 -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-10">
+<div class="lg:col-span-1 bg-red-50 border-t-8 border-red-500 rounded-2xl p-6 shadow-sm">
+<h3 class="text-xl font-bold text-red-700 mb-4">🛑 Jangan Lakukan Ini</h3>
+<p class="text-sm text-red-600 mb-4">Kesalahan Fatal di Akhir Perjalanan:</p>
+<ul class="space-y-4 text-sm text-red-800">
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Memanen sayuran di jam 12 siang terik. Sayur bakal layu duluan sebelum masuk wajan penggorengan.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Langsung menanam jenis bibit yang SAMA di tanah bekas panen. Tanah butuh istirahat dan nutrisi baru.</span>
+</li>
+<li class="flex items-start gap-2">
+<span class="mt-0.5 font-bold text-lg leading-none">✖</span><span>Nambah 20 pot baru sekaligus karena ngerasa udah "pro". Nanti pasti kewalahan nyiramnya.</span>
+</li>
+</ul>
+</div>
+
+<div class="lg:col-span-2 bg-white rounded-2xl p-6 shadow-sm border border-gray-200 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-40 h-40 bg-purple-50 rounded-bl-full -z-10"></div>
+<h3 class="text-xl font-bold text-gray-800 mb-2">✅ Checklist Terakhir Bab 5</h3>
+<p class="text-gray-600 mb-6 text-sm">Centang ini sebagai tanda kelulusanmu!</p>
+<div class="space-y-3">
+<label class="flex items-center gap-3 p-3 hover:bg-purple-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-purple-100">
+<input type="checkbox" class="w-5 h-5 text-purple-600 rounded focus:ring-purple-500 accent-purple-600">
+<span class="text-gray-700 font-medium">Udah janji bakal panen pagi hari dan nyisain batangnya biar tumbuh lagi.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-purple-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-purple-100">
+<input type="checkbox" class="w-5 h-5 text-purple-600 rounded focus:ring-purple-500 accent-purple-600">
+<span class="text-gray-700 font-medium">Paham cara bikin "Grup WA Pribadi" buat nge-<strong><em>track</em></strong> progres kebunku.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-purple-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-purple-100">
+<input type="checkbox" class="w-5 h-5 text-purple-600 rounded focus:ring-purple-500 accent-purple-600">
+<span class="text-gray-700 font-medium">Bakal melibatkan si kecil buat bantu-bantu nyiram pot yang ringan.</span>
+</label>
+<label class="flex items-center gap-3 p-3 hover:bg-purple-50 rounded-lg cursor-pointer transition-colors border border-transparent hover:border-purple-100">
+<input type="checkbox" class="w-5 h-5 text-purple-600 rounded focus:ring-purple-500 accent-purple-600">
+<span class="text-gray-700 font-medium">Menjadikan berkebun sebagai ajang cari <em>healing</em>, bukan beban pikiran.</span>
+</label>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- ============================================== -->
+<!-- STARTER KIT BELANJA (BONUS DARI PENULIS)       -->
+<!-- ============================================== -->
+<div class="mt-20 bg-green-800 rounded-3xl p-8 md:p-12 text-white relative overflow-hidden shadow-xl">
+<div class="absolute top-0 right-0 w-64 h-64 bg-green-700 rounded-full blur-3xl opacity-50 -z-10"></div>
+<div class="absolute bottom-0 left-0 w-40 h-40 bg-yellow-400 rounded-full blur-3xl opacity-20 -z-10"></div>
+<div class="text-center mb-10">
+<h2 class="text-3xl font-extrabold mb-3">🛒 Starter Kit Belanja Anti-Bingung</h2>
+<p class="text-green-100">Daftar belanja realistis buat ibu-ibu pemula. Nggak usah jajan mahal, cukup siapin <em>budget</em> ± Rp 60.000-an aja di Toko Pertanian atau dari link *Shopee* andalanku di bawah ini!</p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+<div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20 flex flex-col justify-between">
+<div>
+<h4 class="font-bold text-yellow-300 text-lg mb-2">1. Media Tanam Siap Pakai</h4>
+<p class="text-sm text-green-50 mb-3">Pilih yang udah dicampur sekam dan kompos. Praktis, tinggal tuang aja!</p>
+</div>
+<a href="https://s.shopee.co.id/6VKcnpoCmo" target="_blank" class="block text-center bg-yellow-400 text-green-900 font-bold py-2 rounded-lg hover:bg-yellow-300 transition-colors mt-2 text-sm">Beli di sini 🛒</a>
+</div>
+
+<div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20 flex flex-col justify-between">
+<div>
+<h4 class="font-bold text-yellow-300 text-lg mb-2">2. Polybag Hitam</h4>
+<p class="text-sm text-green-50 mb-3">Murah meriah dan sudah ada lubang drainasenya. Beli ukuran sedang.</p>
+</div>
+<a href="https://s.shopee.co.id/1gFN2uy8HZ" target="_blank" class="block text-center bg-yellow-400 text-green-900 font-bold py-2 rounded-lg hover:bg-yellow-300 transition-colors mt-2 text-sm">Beli di sini 🛒</a>
+</div>
+
+<div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20 flex flex-col justify-between">
+<div>
+<h4 class="font-bold text-yellow-300 text-lg mb-2">3. Tatakan Pot Plastik</h4>
+<p class="text-sm text-green-50 mb-3">Biar lantai teras dan balkon nggak becek kotor pas nyiram air.</p>
+</div>
+<a href="https://s.shopee.co.id/2LV3qETSbK" target="_blank" class="block text-center bg-yellow-400 text-green-900 font-bold py-2 rounded-lg hover:bg-yellow-300 transition-colors mt-2 text-sm">Beli di sini 🛒</a>
+</div>
+
+<div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20 flex flex-col justify-between">
+<div>
+<h4 class="font-bold text-yellow-300 text-lg mb-2">4. Botol Sprayer Semprotan</h4>
+<p class="text-sm text-green-50 mb-3">Wajib punya buat nyemprotin ramuan anti-hama (racikan sabun+bawang).</p>
+</div>
+<a href="https://s.shopee.co.id/AKXLMzcUSW" target="_blank" class="block text-center bg-yellow-400 text-green-900 font-bold py-2 rounded-lg hover:bg-yellow-300 transition-colors mt-2 text-sm">Beli di sini 🛒</a>
+</div>
+
+<div class="bg-white/10 backdrop-blur-sm rounded-xl p-5 border border-white/20 flex flex-col justify-between md:col-span-2 lg:col-span-2">
+<div>
+<h4 class="font-bold text-yellow-300 text-lg mb-2">5. Pilihan Benih Sayur Andalan</h4>
+<p class="text-sm text-green-50 mb-3">Beli dari merk lokal terpercaya. Dijamin pasti tumbuh tunas (berkecambah)!</p>
+<div class="flex flex-wrap gap-2 mt-4">
+<a href="https://s.shopee.co.id/70GtOwI1D6" target="_blank" class="bg-white/20 hover:bg-white/30 text-white text-xs font-semibold px-4 py-2 rounded-full transition-colors border border-white/30">🌱 Aneka Benih Sayur</a>
+<a href="https://s.shopee.co.id/6pxTCfugcK" target="_blank" class="bg-white/20 hover:bg-white/30 text-white text-xs font-semibold px-4 py-2 rounded-full transition-colors border border-white/30">🥬 Benih Sawi (Bintang Asia)</a>
+<a href="https://s.shopee.co.id/809QasEoS1" target="_blank" class="bg-white/20 hover:bg-white/30 text-white text-xs font-semibold px-4 py-2 rounded-full transition-colors border border-white/30">🥬 Benih Sawi (Cap Rusa)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer class="text-center pb-10 pt-16 mt-16 border-t border-gray-200">
+<h2 class="text-2xl font-bold text-gray-800 mb-4">🎉 Selamat! Kamu Sudah Menyelesaikan Semua Tahap</h2>
+<p class="text-gray-600 mb-8 max-w-xl mx-auto">
+Semua panduan dari persiapan mental sampai panen sudah ada di tanganmu. Sekarang tinggal satu langkah yang menentukan: <strong>Mulai dari 1 Pot Pertamamu Hari Ini!</strong>
+</p>
+<button onclick="window.scrollTo(0,0)" class="bg-primary-green hover:bg-green-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105">
+Kembali ke Atas untuk Membaca Ulang
+</button>
+<div class="mt-12 text-sm text-gray-400">
+© 2026 Kebun Rumah Gemilang | Panduan Mandiri Khusus Pemula <br>
+<span class="italic text-xs mt-2 inline-block">File SPA Standalone (Offline-Ready) - Tidak Butuh Login Google.</span>
+</div>
+</footer>
+
+</main>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Navigasi Smooth Scroll Active State
+const sections = document.querySelectorAll('main > div[id]');
+const navLinks = document.querySelectorAll('.nav-link');
+
+window.addEventListener('scroll', () => {
+let current = '';
+sections.forEach(section => {
+const sectionTop = section.offsetTop;
+if (pageYOffset >= sectionTop - 150) {
+current = section.getAttribute('id');
+}
+});
+navLinks.forEach(link => {
+link.classList.remove('active');
+if (link.getAttribute('href').substring(1) === current) {
+link.classList.add('active');
+}
+});
+});
+
+// Logic wrapping label Chart.js
+const wrapLabels = (labels, maxChars) => labels.map(label => {
+if (label.length > maxChars) {
+const words = label.split(' ');
+let lines = [];
+let currentLine = '';
+for (let i = 0; i < words.length; i++) {
+const word = words[i];
+if ((currentLine + word).length > maxChars) {
+if (currentLine.length > 0) {
+lines.push(currentLine.trim());
+currentLine = word + ' ';
+} else {
+lines.push(word);
+currentLine = '';
+}
+} else {
+currentLine += word + ' ';
+}
+}
+if (currentLine.trim().length > 0) {
+lines.push(currentLine.trim());
+}
+return lines;
+}
+return label;
+});
+
+// Konfigurasi Tooltip Chart.js wajib
+const tooltipConfig = {
+tooltip: {
+backgroundColor: 'rgba(255, 255, 255, 0.95)',
+titleColor: '#1f2937',
+bodyColor: '#4b5563',
+borderColor: '#e5e7eb',
+borderWidth: 1,
+padding: 12,
+displayColors: true,
+callbacks: {
+title: function(tooltipItems) {
+const item = tooltipItems[0];
+let label = item.chart.data.labels[item.dataIndex];
+if (Array.isArray(label)) { return label.join(' '); } 
+else { return label; }
+}
+}
+}
+};
+
+const rawKegagalanLabels = ['Lupa Disiram / Kering', 'Terlalu Banyak Air / Busuk', 'Ditaruh di Tempat Gelap', 'Berekspektasi Terlalu Tinggi'];
+const wrappedKegagalanLabels = wrapLabels(rawKegagalanLabels, 16);
+
+const ctxKegagalan = document.getElementById('kegagalanChart').getContext('2d');
+new Chart(ctxKegagalan, {
+type: 'pie',
+data: {
+labels: wrappedKegagalanLabels,
+datasets: [{
+data: [45, 25, 20, 10],
+backgroundColor: ['#F97316', '#4D7C0F', '#84CC16', '#FDBA74'],
+borderWidth: 2,
+borderColor: '#ffffff'
+}]
+},
+options: {
+responsive: true,
+maintainAspectRatio: false,
+plugins: {
+legend: {
+position: 'right',
+labels: { boxWidth: 12, font: { size: 11, family: "'Segoe UI', sans-serif" } }
+},
+...tooltipConfig
+}
+}
+});
+});
+</script>
+</body>
+</html>
